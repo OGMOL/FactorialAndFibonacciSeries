@@ -43,4 +43,9 @@ public class Factorial extends Algorithm {
             return mult;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Factorial{}";
+    }
 }

@@ -39,4 +39,9 @@ public class FibonacciSeries extends Algorithm {
         }
         return array[n];
     }
+
+    @Override
+    public String toString() {
+        return "FibonacciSeries{}";
+    }
 }
