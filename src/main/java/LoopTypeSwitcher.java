@@ -1,8 +1,6 @@
 public class LoopTypeSwitcher {
-    private Algorithm alg;
 
     public LoopTypeSwitcher(Algorithm alg) {
-        this.alg = alg;
     }
 
     public long choiceLoopType(int loopType, int n, Algorithm alg) {

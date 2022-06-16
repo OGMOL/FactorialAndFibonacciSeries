@@ -6,5 +6,8 @@ public abstract class Algorithm {
 
     public abstract long loopFor(int n);
 
-
+    @Override
+    public String toString() {
+        return "Algorithm{}";
+    }
 }

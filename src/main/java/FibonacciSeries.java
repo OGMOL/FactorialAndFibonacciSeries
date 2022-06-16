@@ -1,8 +1,5 @@
 public class FibonacciSeries extends Algorithm {
 
-    public FibonacciSeries() {
-    }
-
     @Override
     public long loopWhile(int n) {
         int i = 2;
@@ -38,5 +35,10 @@ public class FibonacciSeries extends Algorithm {
             array[i] = array[i - 1] + array[i - 2];
         }
         return array[n];
+    }
+
+    @Override
+    public String toString() {
+        return "FibonacciSeries{}";
     }
 }

@@ -1,8 +1,5 @@
 public class Factorial extends Algorithm {
 
-    public Factorial() {
-    }
-
     @Override
     public long loopWhile(int n) {
         long mult = 1;
@@ -42,5 +39,10 @@ public class Factorial extends Algorithm {
             }
             return mult;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Factorial{}";
     }
 }
