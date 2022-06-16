@@ -1,8 +1,5 @@
 public class FibonacciSeries extends Algorithm {
 
-    public FibonacciSeries() {
-    }
-
     @Override
     public long loopWhile(int n) {
         int i = 2;
